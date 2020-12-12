@@ -1,9 +1,11 @@
-	
+# Deploying VMware VM #
+
 provider "vsphere" {
   user                  = "XXXXXXXXXXXXXX"
   password              = "YYYYYYYYYYYYYY"
   vsphere_server        = "OVH-vCenter"
-  allow_unverified_ssl  = true
+   # If you have a self-signed cert
+  allow_unverified_ssl = var.vsphere-unverified-ssl
 }
  
  
