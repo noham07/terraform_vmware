@@ -4,7 +4,7 @@
 
 variable "vsphere_server" {
   description = "vsphere server for the environment - EXAMPLE: vcenter01.hosted.local"
-  default     = "pcc-5-135-132-221.ovh.com"
+  default     = "pcc-X-yyy-yyy-yyy.xxx.com"
 }
 
 variable "vsphere_user" {
@@ -74,7 +74,7 @@ variable "vm_name" {
 }
 
 variable "vm_ip" { 
-    default = "172.16.1.150" 
+    default = "10.10.1.50" 
     description = "IP Address to assign to VM"
 }
 
