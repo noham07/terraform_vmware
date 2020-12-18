@@ -9,7 +9,10 @@ https://www.ovhcloud.com/en-gb/enterprise/products/hosted-private-cloud/
 
 
 Terraform configuration folder : 
+
 ├── main.tf
+
 ├── terraform.tfvars
+
 └── variables.tf
 
